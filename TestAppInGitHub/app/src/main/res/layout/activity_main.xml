@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cga2351.example.com.testappingithub.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/tv_title"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test button1"
+        android:textAllCaps="false"
+        android:id="@+id/btn_test_button1"
+        android:layout_below="@+id/tv_title"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test button2"
+        android:textAllCaps="false"
+        android:id="@+id/btn_test_button2"
+        android:layout_below="@+id/btn_test_button1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test button3"
+        android:textAllCaps="false"
+        android:id="@+id/btn_test_button3"
+        android:layout_below="@+id/btn_test_button2"/>
+
+</RelativeLayout>
